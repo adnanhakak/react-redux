@@ -1,0 +1,39 @@
+.product {
+  border: 2px solid black;
+  width: 22%;
+  margin-left: 150px;
+  margin-top: 40px;
+  height: 150px;
+}
+
+.allProducts {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 80px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(77, 75, 75);
+}
+
+.description {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  width: 40%;
+  margin-left: 30%;
+  border: 1px solid black;
+}
+
+.each {
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+#des {
+  padding: 20px;
+}
